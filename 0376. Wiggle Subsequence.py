@@ -1,4 +1,4 @@
-# 在陣列中，比較每個元素質和前一個元素值大小
+# 在陣列中，比較每個元素值和前一個元素值大小
 class Solution:
     def wiggleMaxLength(self, nums: List[int]) -> int:
         if len(nums)<=1:
